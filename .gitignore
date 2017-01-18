@@ -1,6 +1,5 @@
 # composer vendor dir
 vendor
-composer.lock
 
 # phpstorm project files
 .idea

@@ -30,5 +30,6 @@ before_script:
   - php vendor/kalyabin/yii2-hg-view/tests/create_repository.php
   - git --version
   - hg --version
+  - cd app/tests
 script:
-  - codecept run unit --config=app/tests/codeception.yml --debug --steps
+  - codecept run unit --debug --steps
